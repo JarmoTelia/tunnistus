@@ -1,28 +1,34 @@
 # Telia Tunnistus Pre-prod OIDC Integration for Relying Party
 
-## Endpoints
+## 📌 Endpoints
 
-### The well-known OpenID Connect Federation Entity Statement:
-https://tunnistus-pp.telia.fi/.well-known/openid-federation
+### 🔐 OpenID Connect Metadata
 
-### The well-known OpenID Connect provider metadata endpoint:
-https://tunnistus-pp.telia.fi/uas/.well-known/openid-configuration
+- **Federation Entity Statement**  
+  [`/.well-known/openid-federation`](https://tunnistus-pp.telia.fi/.well-known/openid-federation)
 
-### The well-known OAuth 2.0 provider metadata endpoint:
-https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server
+- **OIDC Provider Metadata**  
+  [`/uas/.well-known/openid-configuration`](https://tunnistus-pp.telia.fi/uas/.well-known/openid-configuration)
 
-### Public keys:
-https://tunnistus-pp.telia.fi/uas/oauth2/metadata.jwks
+- **OAuth 2.0 Provider Metadata**  
+  [`/uas/.well-known/oauth-authorization-server`](https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server)
 
-### Public keys in signed jwks format:
-https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt
+### 🔑 Keys
 
-### Authorization Endpoint:
-https://tunnistus-pp.telia.fi/uas/oauth2/authorization
+- **JWKS (Public Keys)**  
+  [`/uas/oauth2/metadata.jwks`](https://tunnistus-pp.telia.fi/uas/oauth2/metadata.jwks)
 
-### Token Endpoint:
-https://tunnistus-pp.telia.fi/uas/oauth2/token
+- **Signed JWKS**  
+  [`/openid_provider/signed_jwks.jwt`](https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt)
 
+### 🔁 OAuth2 Endpoints
 
-## Integration Document
-[Telia Tunnistus Integration Guide To Identification Broker Service](Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
+- **Authorization Endpoint**  
+  [`/uas/oauth2/authorization`](https://tunnistus-pp.telia.fi/uas/oauth2/authorization)
+
+- **Token Endpoint**  
+  [`/uas/oauth2/token`](https://tunnistus-pp.telia.fi/uas/oauth2/token)
+
+## 📄 Integration Document
+
+📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
