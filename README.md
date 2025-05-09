@@ -1,4 +1,4 @@
-# Telia Tunnistus OIDC Integration for Relying Party
+# Telia Tunnistus Pre-prod OIDC Integration for Relying Party
 
 ## Endpoints
 
@@ -11,14 +11,14 @@ https://tunnistus-pp.telia.fi/uas/.well-known/openid-configuration
 ### The well-known OAuth 2.0 provider metadata endpoint:
 https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server
 
-### Public keys
+### Public keys:
 https://tunnistus-pp.telia.fi/uas/oauth2/metadata.jwks
 
-### Public keys in signed jwks format 
+### Public keys in signed jwks format:
 https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt
 
-### Authorization Endpoint 
+### Authorization Endpoint:
 https://tunnistus-pp.telia.fi/uas/oauth2/authorization
 
-### Token Endpoint 
+### Token Endpoint:
 https://tunnistus-pp.telia.fi/uas/oauth2/token
