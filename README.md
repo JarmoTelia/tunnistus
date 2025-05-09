@@ -25,3 +25,4 @@ https://tunnistus-pp.telia.fi/uas/oauth2/token
 
 ## Integration Document
 
+[Telia Tunnistus Integration Guide To Identification Broker Service](./Telia Tunnistus - Integration guide to identification broker service v2.29.pdf)
