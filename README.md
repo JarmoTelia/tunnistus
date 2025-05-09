@@ -13,7 +13,7 @@
 - **OAuth 2.0 Provider Metadata**  
   [`/uas/.well-known/oauth-authorization-server`](https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server)
 
-\
+
 ### 🔑 Keys
 
 - **JWKS (Public Keys)**  
@@ -22,7 +22,7 @@
 - **Signed JWKS**  
   [`/openid_provider/signed_jwks.jwt`](https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt)
 
-\
+
 ### 🔁 OAuth2 Endpoints
 
 - **Authorization Endpoint**  
@@ -31,7 +31,7 @@
 - **Token Endpoint**  
   [`/uas/oauth2/token`](https://tunnistus-pp.telia.fi/uas/oauth2/token)
 
-\
+
 ## 📄 Integration Document
 
 📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
