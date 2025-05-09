@@ -31,4 +31,4 @@
 
 ## 📄 Integration Document
 
-📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
+📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
