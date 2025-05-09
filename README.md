@@ -23,6 +23,6 @@ https://tunnistus-pp.telia.fi/uas/oauth2/authorization
 ### Token Endpoint:
 https://tunnistus-pp.telia.fi/uas/oauth2/token
 
-## Integration Document
 
+## Integration Document
 [Telia Tunnistus Integration Guide To Identification Broker Service](Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
