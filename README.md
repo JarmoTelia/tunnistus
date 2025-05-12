@@ -40,31 +40,31 @@ Below are official documents and directives related to electronic identification
 
 ### 🔐 General Information
 
-[Electronic Identification – General Information (FI)](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/sahkoinen-tunnistaminen)
+- [Electronic Identification – General Information (FI)](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/sahkoinen-tunnistaminen)
 <br/><br/>
 
 ### 📢 Official Announcements
 
-[Liikenne- ja viestintäviraston Announcement 2025 (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Liikenne-ja_viestint%C3%A4viraston_tiedote_2025.pdf)
-[Traficom Announcement 2025 (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_Announcement_2025_EN.pdf)
+- [Liikenne- ja viestintäviraston Announcement 2025 (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Liikenne-ja_viestint%C3%A4viraston_tiedote_2025.pdf)
+- [Traficom Announcement 2025 (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_Announcement_2025_EN.pdf)
 <br/><br/>
 
 ### 📘 Regulation 72B: Identification and Trust Services
 
-[Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_julkaistu.pdf)
-[Explanatory Memorandum for Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO.pdf)
-[Regulation 72B (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_ENG_julkaistu.pdf)
-[Explanatory Memorandum for Regulation 72B (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO_ENG.pdf)
+- [Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_julkaistu.pdf)
+- [Explanatory Memorandum for Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO.pdf)
+- [Regulation 72B (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_ENG_julkaistu.pdf)
+- [Explanatory Memorandum for Regulation 72B (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO_ENG.pdf)
 <br/><br/>
 
 ### 🔧 Technical Profiles
 
 #### OpenID Connect (OIDC)
 
-[Traficom S213/2023 – OIDC Profile v2.2 for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S213_2023_OIDC_Profile_v2_2_for_the_Finnish_Trust_Network_EN.pdf)
+- [Traficom S213/2023 – OIDC Profile v2.2 for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S213_2023_OIDC_Profile_v2_2_for_the_Finnish_Trust_Network_EN.pdf)
 
 #### SAML
 
-[Traficom S212/2023 – SAML Profile for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S212_2023_SAML_Profile_for_the_Finnish_Trust_Network_EN.pdf)
+- [Traficom S212/2023 – SAML Profile for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S212_2023_SAML_Profile_for_the_Finnish_Trust_Network_EN.pdf)
 
-> _Note: The
+> _Note: The interface descriptions are available in English only to ensure wide use and prevent interpretation differences._
