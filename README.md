@@ -46,7 +46,7 @@ Below are official documents and directives related to electronic identification
 
 ### 📢 Official Announcements
 
-- [Liikenne- ja viestintäviraston Announcement 2025 (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Liikenne-ja_viestint%C3%A4viraston_tiedote_2025.pdf)
+- [Liikenne- ja viestintäviraston tiedote 2025 (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Liikenne-ja_viestint%C3%A4viraston_tiedote_2025.pdf)
 - [Traficom Announcement 2025 (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_Announcement_2025_EN.pdf)
 <br/><br/>
 
