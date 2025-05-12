@@ -1,6 +1,20 @@
 # Telia Tunnistus Pre-production 
 ## OIDC Integration for Relying Parties
 
+## 📑 Table of Contents
+- [📌 Endpoints](#%EF%B8%8F-endpoints)
+  - [🔐 OpenID Connect Metadata](#-openid-connect-metadata)
+  - [🔑 Keys](#-keys)
+  - [🔁 OAuth2 Endpoints](#-oauth2-endpoints)
+- [📄 Integration Document](#-integration-document)
+- [📋 Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#regulatory-compliance-requirements-for-strong-electronic-identification-finland)
+  - [🔐 General Information](#-general-information)
+  - [📢 Official Announcements](#-official-announcements)
+  - [📘 Regulation 72B: Identification and Trust Services](#-regulation-72b-identification-and-trust-services)
+  - [🔧 Technical Profiles](#-technical-profiles)
+    - [OpenID Connect (OIDC)](#openid-connect-oidc)
+    - [SAML](#saml)
+
 ## 📌 Endpoints
 
 ### 🔐 OpenID Connect Metadata
@@ -14,6 +28,7 @@
 - **OAuth 2.0 Provider Metadata**  
   [`/uas/.well-known/oauth-authorization-server`](https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server)
 <br/><br/>
+
 ### 🔑 Keys
 
 - **JWKS (Public Keys)**  
@@ -22,6 +37,7 @@
 - **Signed JWKS**  
   [`/openid_provider/signed_jwks.jwt`](https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt)
 <br/><br/>
+
 ### 🔁 OAuth2 Endpoints
 
 - **Authorization Endpoint**  
@@ -30,6 +46,7 @@
 - **Token Endpoint**  
   [`/uas/oauth2/token`](https://tunnistus-pp.telia.fi/uas/oauth2/token)
 <br/><br/>
+
 ## 📄 Integration Document
 
 📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
