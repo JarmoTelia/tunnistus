@@ -2,22 +2,24 @@
 ## OIDC Integration for Relying Parties
 
 ## 📑 Table of Contents
-- [📌 Endpoints](#%EF%B8%8F-endpoints)
-  - [🔐 OpenID Connect Metadata](#-openid-connect-metadata)
-  - [🔑 Keys](#-keys)
-  - [🔁 OAuth2 Endpoints](#-oauth2-endpoints)
-- [📄 Integration Document](#-integration-document)
-- [📋 Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#regulatory-compliance-requirements-for-strong-electronic-identification-finland)
-  - [🔐 General Information](#-general-information)
-  - [📢 Official Announcements](#-official-announcements)
-  - [📘 Regulation 72B: Identification and Trust Services](#-regulation-72b-identification-and-trust-services)
-  - [🔧 Technical Profiles](#-technical-profiles)
-    - [OpenID Connect (OIDC)](#openid-connect-oidc)
-    - [SAML](#saml)
+1. [Endpoints](#1-endpoints)
+   1.1 [OpenID Connect Metadata](#11-openid-connect-metadata)  
+   1.2 [Keys](#12-keys)  
+   1.3 [OAuth2 Endpoints](#13-oauth2-endpoints)  
+2. [Integration Document](#2-integration-document)  
+3. [Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#3-regulatory-compliance-requirements-for-strong-electronic-identification-finland)  
+   3.1 [General Information](#31-general-information)  
+   3.2 [Official Announcements](#32-official-announcements)  
+   3.3 [Regulation 72B: Identification and Trust Services](#33-regulation-72b-identification-and-trust-services)  
+   3.4 [Technical Profiles](#34-technical-profiles)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
+   &nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)  
 
-## 📌 Endpoints
+---
 
-### 🔐 OpenID Connect Metadata
+## 1 Endpoints
+
+### 1.1 OpenID Connect Metadata
 
 - **Federation Entity Statement**  
   [`/.well-known/openid-federation`](https://tunnistus-pp.telia.fi/.well-known/openid-federation)
@@ -29,7 +31,7 @@
   [`/uas/.well-known/oauth-authorization-server`](https://tunnistus-pp.telia.fi/uas/.well-known/oauth-authorization-server)
 <br/><br/>
 
-### 🔑 Keys
+### 1.2 Keys
 
 - **JWKS (Public Keys)**  
   [`/uas/oauth2/metadata.jwks`](https://tunnistus-pp.telia.fi/uas/oauth2/metadata.jwks)
@@ -38,7 +40,7 @@
   [`/openid_provider/signed_jwks.jwt`](https://tunnistus-pp.telia.fi/openid_provider/signed_jwks.jwt)
 <br/><br/>
 
-### 🔁 OAuth2 Endpoints
+### 1.3 OAuth2 Endpoints
 
 - **Authorization Endpoint**  
   [`/uas/oauth2/authorization`](https://tunnistus-pp.telia.fi/uas/oauth2/authorization)
@@ -47,27 +49,27 @@
   [`/uas/oauth2/token`](https://tunnistus-pp.telia.fi/uas/oauth2/token)
 <br/><br/>
 
-## 📄 Integration Document
+## 2 Integration Document
 
 📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.29.pdf)
 <br/><br/>
 
-## Regulatory Compliance Requirements for Strong Electronic Identification (Finland)
+## 3 Regulatory Compliance Requirements for Strong Electronic Identification (Finland)
 
 Below are official documents and directives related to electronic identification and trust services in Finland, provided by the Finnish Transport and Communications Agency (Traficom) and the National Cyber Security Centre (NCSC-FI).
 
-### 🔐 General Information
+### 3.1 General Information
 
 - [Electronic Identification – General Information (FI)](https://www.kyberturvallisuuskeskus.fi/fi/toimintamme/saantely-ja-valvonta/sahkoinen-tunnistaminen)
 <br/><br/>
 
-### 📢 Official Announcements
+### 3.2 Official Announcements
 
 - [Liikenne- ja viestintäviraston tiedote 2025 (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Liikenne-ja_viestint%C3%A4viraston_tiedote_2025.pdf)
 - [Traficom Announcement 2025 (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_Announcement_2025_EN.pdf)
 <br/><br/>
 
-### 📘 Regulation 72B: Identification and Trust Services
+### 3.3 Regulation 72B: Identification and Trust Services
 
 - [Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_julkaistu.pdf)
 - [Explanatory Memorandum for Regulation 72B (FI)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO.pdf)
@@ -75,13 +77,13 @@ Below are official documents and directives related to electronic identification
 - [Explanatory Memorandum for Regulation 72B (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/M72B_2022_M%C3%84%C3%84R%C3%84YS_72B_tunnistus-_ja_luottamuspalvelut_PERUSTELUMUISTIO_ENG.pdf)
 <br/><br/>
 
-### 🔧 Technical Profiles
+### 3.4 Technical Profiles
 
-#### OpenID Connect (OIDC)
+#### 3.4.1 OpenID Connect (OIDC)
 
 - [Traficom S213/2023 – OIDC Profile v2.2 for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S213_2023_OIDC_Profile_v2_2_for_the_Finnish_Trust_Network_EN.pdf)
 
-#### SAML
+#### 3.4.2 SAML
 
 - [Traficom S212/2023 – SAML Profile for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S212_2023_SAML_Profile_for_the_Finnish_Trust_Network_EN.pdf)
 
