@@ -93,7 +93,9 @@ Below are official documents and directives related to electronic identification
 > _Note: The interface descriptions are available in English only to ensure wide use and prevent interpretation differences._
 <br/><br/>
 
-### 4 Tunnistus Python Sample Application
+## 4 Tunnistus Python Sample Application
 
-#### 4.1 Sample application integration with Python: https://github.com/telia-oss/tunnistus-python-sample
+Sample application integration with Python: 
+
+### 4.1 https://github.com/telia-oss/tunnistus-python-sample
 
