@@ -90,3 +90,6 @@ Below are official documents and directives related to electronic identification
 - [Traficom S212/2023 – SAML Profile for the Finnish Trust Network (EN)](https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Traficom_S212_2023_SAML_Profile_for_the_Finnish_Trust_Network_EN.pdf)
 
 > _Note: The interface descriptions are available in English only to ensure wide use and prevent interpretation differences._
+<br/><br/>
+
+### 4 Sample application integration with Python
