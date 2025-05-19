@@ -14,6 +14,7 @@
    &nbsp;&nbsp;3.4 [Technical Profiles](#34-technical-profiles)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
+4. [Tunnistus Python Sample Application](#4 Tunnistus Python Sample Application)
 
 ---
 
@@ -92,4 +93,7 @@ Below are official documents and directives related to electronic identification
 > _Note: The interface descriptions are available in English only to ensure wide use and prevent interpretation differences._
 <br/><br/>
 
-### 4 Sample application integration with Python
+### 4 Tunnistus Python Sample Application
+
+#### 4.1 Sample application integration with Python: https://github.com/telia-oss/tunnistus-python-sample
+
