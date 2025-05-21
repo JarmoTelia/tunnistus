@@ -15,6 +15,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
 4. [Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)
+5. [Questions and Answers](#5-questions-and-answers)
 
 ---
 
@@ -97,3 +98,16 @@ Below are official documents and directives related to electronic identification
 
 Sample application integration with Python: https://github.com/telia-oss/tunnistus-python-sample
 
+## 5 Questions and Answers
+
+**Q: How do I know if this applies to me?**
+A: If your service relies on Finnish strong electronic identification methods — such as online banking credentials or the Mobile ID (Mobiilivarmenne) — then this applies to you.
+
+**Q: How do I get started?**
+A: Begin by reading Chapter 2 of the "Telia Tunnistus – Integration Guide to the Identification Broker Service" (version 2.29 or later).
+
+**Q: I only have one key pair. Can I still test signed requests?**
+A: Yes, you can use the same key pair for both signing and encryption. However, for a more secure and scalable setup, it's recommended to use separate key pairs for signing and encryption.
+
+**Q: I already have an OIDC integration with Telia Tunnistus. How can I test signed requests?**
+A: If your OIDC integration is based on public keys, signed requests are already supported. You can begin testing right away.
