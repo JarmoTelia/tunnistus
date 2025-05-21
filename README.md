@@ -100,14 +100,14 @@ Sample application integration with Python: https://github.com/telia-oss/tunnist
 
 ## 5 Questions and Answers
 
-**Q: How do I know if this applies to me?**
+**Q: How do I know if this applies to me?**<br/>
 A: If your service relies on Finnish strong electronic identification methods — such as online banking credentials or the Mobile ID (Mobiilivarmenne) — then this applies to you.
 
-**Q: How do I get started?**
+**Q: How do I get started?**<br/>
 A: Begin by reading Chapter 2 of the "Telia Tunnistus – Integration Guide to the Identification Broker Service" (version 2.29 or later).
 
-**Q: I only have one key pair. Can I still test signed requests?**
+**Q: I only have one key pair. Can I still test signed requests?**<br/>
 A: Yes, you can use the same key pair for both signing and encryption. However, for a more secure and scalable setup, it's recommended to use separate key pairs for signing and encryption.
 
-**Q: I already have an OIDC integration with Telia Tunnistus. How can I test signed requests?**
+**Q: I already have an OIDC integration with Telia Tunnistus. How can I test signed requests?**<br/>
 A: If your OIDC integration is based on public keys, signed requests are already supported. You can begin testing right away.
