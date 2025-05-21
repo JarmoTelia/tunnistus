@@ -15,7 +15,8 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
 4. [Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)
-5. [Questions and Answers](#5-questions-and-answers)
+5. [Questions and Answers on the Traficom announcement to e-services using identification 
+services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services-using-identification-services)
 
 ---
 
@@ -98,7 +99,8 @@ Below are official documents and directives related to electronic identification
 
 Sample application integration with Python: https://github.com/telia-oss/tunnistus-python-sample
 
-## 5 Questions and Answers
+## 5 Questions and Answers on the Traficom announcement to e-services using identification 
+services
 
 **Q: How do I know if this applies to me?**<br/>
 A: If your service relies on Finnish strong electronic identification methods — such as online banking credentials or the Mobile ID (Mobiilivarmenne) — then this applies to you.
@@ -111,3 +113,14 @@ A: Yes, you can use the same key pair for both signing and encryption. However, 
 
 **Q: I already have an OIDC integration with Telia Tunnistus. How can I test signed requests?**<br/>
 A: If your OIDC integration is based on public keys, signed requests are already supported. You can begin testing right away.
+
+**Q: Does this apply to SAML integrations?**<br/>
+A: This requirement applies only to OIDC integrations, not to SAML-based connections.
+
+**Q: Does this apply to SAML integrations?**<br/>
+A: This requirement applies only to OIDC integrations, not to SAML-based connections.
+
+**Q: How do I know whether my integration uses signed requests?
+A: Your authentication request should be structured like this:
+https://tunnistus-pp.telia.fi/uas/oauth2/authorization?request=eyJhbGciOiJSUzI1NiIsImtp...
+You can inspect this using your browser's developer tools.
