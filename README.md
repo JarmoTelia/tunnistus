@@ -15,8 +15,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
 4. [Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)
-5. [Questions and Answers on the Traficom announcement to e-services]
-services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)
+5. [Questions and Answers on the Traficom announcement to e-services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)
 
 ---
 
