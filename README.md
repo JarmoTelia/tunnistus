@@ -99,7 +99,6 @@ Below are official documents and directives related to electronic identification
 Sample application integration with Python: https://github.com/telia-oss/tunnistus-python-sample
 
 ## 5 Questions and Answers on the Traficom announcement to e-services
-services
 
 **Q: How do I know if this applies to me?**<br/>
 A: If your service relies on Finnish strong electronic identification methods — such as online banking credentials or the Mobile ID (Mobiilivarmenne) — then this applies to you.
