@@ -116,6 +116,6 @@ A: If your OIDC integration is based on public keys, signed requests are already
 A: This requirement applies only to OIDC integrations, not to SAML-based connections.
 
 **Q: How do I know whether my integration uses signed requests?**
-A: Your authentication request should be structured like this:
-https://tunnistus-pp.telia.fi/uas/oauth2/authorization?request=eyJhbGciOiJSUzI1NiIsImtp...
+A: Your authentication request should be structured like this:<br/>
+https://tunnistus-pp.telia.fi/uas/oauth2/authorization?request=eyJhbGciOiJSUzI1NiIsImtp...<br/>
 You can inspect this using your browser's developer tools. The only parameter must be "request", nothing else.
