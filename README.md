@@ -118,4 +118,4 @@ A: This requirement applies only to OIDC integrations, not to SAML-based connect
 **Q: How do I know whether my integration uses signed requests?**<br/>
 A: Your authentication request should be structured like this:<br/>
 https://tunnistus-pp.telia.fi/uas/oauth2/authorization?request=eyJhbGciOiJSUzI1NiIsImtp...<br/>
-You can inspect this using your browser's developer tools. The only parameter must be "request", nothing else.
+You can inspect this using your browser's developer tools. The only parameter must be "request", nothing else.<br/>If the request contains other parameters, they are ignored, and only the parameters included in the signed request object are processed.
