@@ -107,7 +107,7 @@ A: If your service relies on Finnish strong electronic identification methods â€
 A: Begin by reading Chapter 2 of the "Telia Tunnistus â€“ Integration Guide to the Identification Broker Service" (version 2.29 or later).
 
 **Q: I only have one key pair. Can I still test signed requests?**<br/>
-A: Yes, you can use the same key pair for both signing and encryption. However, for a more secure and scalable setup, it's recommended to use separate key pairs for signing and encryption.
+A: Yes, you can use the same key pair for both signing and encryption. In that case, do not specify the key usage as 'sig' or 'enc'; omit the parameter entirely.<br/>However, for a more secure and scalable setup, it's recommended to use separate key pairs for signing and encryption.
 
 **Q: I already have an OIDC integration with Telia Tunnistus. How can I test signed requests?**<br/>
 A: If your OIDC integration is based on public keys, signed requests are already supported. You can begin testing right away.
