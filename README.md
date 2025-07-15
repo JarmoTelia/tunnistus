@@ -123,7 +123,7 @@ You can inspect this using your browser's developer tools. The only parameter mu
 **Q: Will you retrieve the JWKS URI daily or weekly to detect rotated keys, or should we use static keys for this integration?**<br/>
 A: If automation is used, see the document Telia Tunnistus Integration Guide chapter 2.1 about Entity Statement. In the Finnish FTN integration case, the JWKS must be signed if keys are updated automatically. This requirement is mandated by Traficom. Signed JWKS can be provided using the OpenID Federation specification, either by sending an Entity Statement securely to Telia Tunnistus or by publishing a Federation endpoint.
 
-**Q: WDo you expect both signing keys?**<br/>
+**Q: Do you expect both signing keys?**<br/>
 A: We recommend to user separate signing ("use": "sig") and encryption ("use": "enc") keys. This is the more future-proof approach. We sign the ID token with our signing key and encrypt it using your encryption key, so you must have the corresponding private key to decrypt it. While it is possible to use a single key without the "use" parameter, the recommended setup is to use separate keys for signing and encryption.
 
 **Q: Do the keys require additional certificate metadata, or is the key material itself sufficient?**<br/>
