@@ -119,3 +119,37 @@ A: This requirement applies only to OIDC integrations, not to SAML-based connect
 A: Your authentication request should be structured like this:<br/>
 https://tunnistus-pp.telia.fi/uas/oauth2/authorization?request=eyJhbGciOiJSUzI1NiIsImtp...<br/>
 You can inspect this using your browser's developer tools. The only parameter must be "request", nothing else.<br/>If the request contains other parameters, they are ignored, and only the parameters included in the signed request object are processed.
+
+**Q: Will you retrieve the JWKS URI daily or weekly to detect rotated keys, or should we use static keys for this integration?**<br/>
+If automation is used, see the document Telia Tunnistus Integration Guide chapter 2.1 about Entity Statement. In the Finnish FTN integration case, the JWKS must be signed if keys are updated automatically. This requirement is mandated by Traficom. Signed JWKS can be provided using the OpenID Federation specification, either by sending an Entity Statement securely to Telia Tunnistus or by publishing a Federation endpoint.
+
+**Q: WDo you expect both signing keys?**<br/>
+We recommend to user separate signing ("use": "sig") and encryption ("use": "enc") keys. This is the more future-proof approach. We sign the ID token with our signing key and encrypt it using your encryption key, so you must have the corresponding private key to decrypt it. While it is possible to use a single key without the "use" parameter, the recommended setup is to use separate keys for signing and encryption.
+
+**Q: Do the keys require additional certificate metadata, or is the key material itself sufficient?**<br/>
+Just the key material is sufficient. Public key information is provided in JSON Web Key (JWK) format. The key data is Base64-encoded without padding (= characters), and is included within a JSON object according to the key type. The keys must use the RSA algorithm with a minimum key length of 2048 bits.
+
+Sample data:
+
+{
+ "keys": [
+ {
+ "e": "AQAB",
+ "kid": "34567947-2167-4a9c-8368-b199fe63b6e2",
+ "kty": "RSA",
+ "n": 
+"yas1HSwbF85dr4YpMOlcupdZY4SEBPrCZMp5w6F9IxWewmhQSsa1fGa2t3_CKl0LgIM1nbJd1fr5CQKN_Hpb0u7H5N3Not4akhNqcZHGNI7xrwOn
+OOIifwgQb2SF3J7xtKJJ0s8igQ5gxNm5rJyaeeJFxoR3tZC9lMbBpHdOiH7HXz3OOZIDbFm5da-i2u91T22UJgHBIZmXzl_7L3ZpIenSECRD9M3fuj9aVCNf3zKo67UuqaPdueRj_ywGqk94Iwr-FnmZ9NKpZe067VK4s2h-CufkGCAhKu9WVgSIHzSzIzCbLSfTXgMCpJyC4dw7TBzlvHOI3BgMjqrUqb3kkw",
+ "use": "sig"
+ },
+ {
+ "e": "AQAB",
+ "kid": "ae29278f-87be-4914-bcfc-bdb659e8fe1d",
+ "kty": "RSA",
+ "n": "wDYW8Y_uZI9F9Qy0WrwYE6xkxEF8k4PTMUgl-ul3J7Lw-v9VuZtH2aSoX3LgTH_qpCGRIUZy7OPDYYXGV1phrVHs7-
+NpevO4aXdTZOwUvjViFbTXO3RkTdh4f0d_YpA6RC2owI41BhE_FmShmPKNGskpyTNAp1E_eH1e_w4FM2g_sbwlDJQ1ckJSyXkDoGrW7Dbx34zlrQg
+UgHdKtepSCX_b3WWLKD3KW7W3lmoeSpI9iLmPLJMiYHlBcd70dCBBQW24n2bSk1BLwiNVETWPfsNnFWA2t19Jl0u3vCHNCCdKi0WORtI-JiaXQSmPW9ZD2kiZUwYwRi8Cg6Z9a85ngQ",
+ "use": "enc"
+ }
+ ]
+}
