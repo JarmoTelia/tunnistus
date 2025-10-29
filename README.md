@@ -55,7 +55,7 @@
 
 This guide provides instructions for integrating with the Telia Identification Broker Pre-Production Service, enabling strong electronic identification for test users. The service supports both OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) protocols, offering secure authentication in compliance with Finnish regulations. It is intended for technical architects and developers seeking to connect their services to the Identification Broker Service.
 
-📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.33.pdf)
+📥 [Telia Tunnistus Integration Guide To Identification Broker Service (PDF)](files/Telia%20Tunnistus%20-%20Integration%20guide%20to%20identification%20broker%20service%20v2.34.pdf)
 <br/><br/>
 
 ## 3 Regulatory Compliance Requirements for Strong Electronic Identification (Finland)
