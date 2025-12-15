@@ -160,8 +160,8 @@ A: The plan is to rotate Telia Tunnistus OIDC and SAML keys. See the time table 
 
 ENV | DATE | NAME | ACTION
 --- | --- | --- | ---
-PRE-PROD |	12.1.2026 |	tunnistus-pp.telia.fi |	OIDC- and SAML- keys publication
-PRE-PROD |	9.2.2026 |	tunnistus-pp.telia.fi |	OIDC- and SAML- keys deployment
-PROD |	23.2.2026 |	tunnistus.telia.fi |	OIDC- and SAML- keys publication
-PROD |	20.4.2026 |	tunnistus.telia.fi |	OIDC- and SAML- keys deployment
+PRE-PROD |	12.1.2026 |	tunnistus-pp.telia.fi |	OIDC and SAML keys publication
+PRE-PROD |	9.2.2026 |	tunnistus-pp.telia.fi |	OIDC and SAML keys deployment
+PROD |	23.2.2026 |	tunnistus.telia.fi | OIDC and SAML keys publication
+PROD |	20.4.2026 |	tunnistus.telia.fi | OIDC and SAML keys deployment
 
