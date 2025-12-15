@@ -1,7 +1,5 @@
 # Telia Tunnistus Pre-Production 
 
-## 📑 Table of Contents
-
 [[_TOC_]]
 
 ---
