@@ -17,6 +17,7 @@
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
 4. [Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)
 5. [Questions and Answers on the Traficom announcement to e-services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)
+6. [Questions and Answers on Telia Tunnistus key rotation](#5-questions-and-answers-on-telia-tunnistus-the-key-rotation)
 
 ---
 
@@ -165,3 +166,9 @@ UgHdKtepSCX_b3WWLKD3KW7W3lmoeSpI9iLmPLJMiYHlBcd70dCBBQW24n2bSk1BLwiNVETWPfsNnFWA
  ]
 }
 ```
+
+## 6 Questions and Answers on Telia Tunnistus key rotation
+
+**Q: How do I know if this applies to me?**<br/>
+A: This applies to all integrations with Telia Tunnistus. Some integrations have already implemented automated key management. In that case no action is required. Otherwise you need to manually update the new keys to your service.
+
