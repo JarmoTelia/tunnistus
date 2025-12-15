@@ -156,9 +156,9 @@ UgHdKtepSCX_b3WWLKD3KW7W3lmoeSpI9iLmPLJMiYHlBcd70dCBBQW24n2bSk1BLwiNVETWPfsNnFWA
 A: This applies to all integrations with Telia Tunnistus. Some integrations have already implemented automated key management. In that case no action is required. Otherwise you need to manually update the new keys to your service.
 
 **Q: What is the plan?**<br/>
-A: See the time table below:
+A: The plan is to rotate Telia Tunnistus OIDC and SAML keys. See the time table below:
 
-ENV | DATE | NAME | action
+ENV | DATE | NAME | ACTION
 --- | --- | --- | ---
 PRE-PROD |	12.1.2026 |	tunnistus-pp.telia.fi |	OIDC- and SAML- keys publication
 PRE-PROD |	9.2.2026 |	tunnistus-pp.telia.fi |	OIDC- and SAML- keys deployment
