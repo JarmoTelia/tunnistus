@@ -2,20 +2,26 @@
 ## OIDC Integration for Relying Parties
 
 ## 📑 Table of Contents
-1. [Endpoints](#1-endpoints)  
-   &nbsp;&nbsp;1.1 [OpenID Connect Metadata](#11-openid-connect-metadata)  
-   &nbsp;&nbsp;1.2 [Keys](#12-keys)  
-   &nbsp;&nbsp;1.3 [OAuth2 Endpoints](#13-oauth2-endpoints)  
-2. [Integration Document](#2-integration-document)  
-3. [Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#3-regulatory-compliance-requirements-for-strong-electronic-identification-finland)  
-   &nbsp;&nbsp;3.1 [General Information](#31-general-information)  
-   &nbsp;&nbsp;3.2 [Official Announcements](#32-official-announcements)  
-   &nbsp;&nbsp;3.3 [Regulation 72B: Identification and Trust Services](#33-regulation-72b-identification-and-trust-services)  
-   &nbsp;&nbsp;3.4 [Technical Profiles](#34-technical-profiles)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)  
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4.2 [SAML](#342-saml)
-4. [Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)
-5. [Questions and Answers on the Traficom announcement to e-services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)
+
+1. **[Endpoints](#1-endpoints)**
+       1.1 [OpenID Connect Metadata](#11-openid-connect-metadata)
+       1.2 [Keys](#12-keys)
+       1.3 [OAuth2 Endpoints](#13-oauth2-endpoints)
+       1.4 [SAML Metadata](#14-saml-metadata)
+
+2. **[Integration Document](#2-integration-document)**
+
+3. **[Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#3-regulatory-compliance-requirements-for-strong-electronic-identification-finland)**
+       3.1 [General Information](#31-general-information)
+       3.2 [Official Announcements](#32-official-announcements)
+       3.3 [Regulation 72B: Identification and Trust Services](#33-regulation-72b-identification-and-trust-services)
+       3.4 [Technical Profiles](#34-technical-profiles)
+         3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)
+         3.4.2 [SAML](#342-saml)
+
+4. **[Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)**
+
+5. **[Questions and Answers on the Traficom Announcement to E-Services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)**
 
 ---
 
@@ -49,6 +55,15 @@
 
 - **Token Endpoint**  
   [`/uas/oauth2/token`](https://tunnistus-pp.telia.fi/uas/oauth2/token)
+<br/><br/>
+
+### 1.4 SAML Metadata 
+
+- **SAML IDP Metadata**  
+  [`/uas/saml2/metadata.xml`](https://tunnistus-pp.telia.fi/uas/saml2/metadata.xml)
+
+- **SAML Authorization Endpoint**  
+  [`/uas/saml2/SingleSignOnService`](https://tunnistus-pp.telia.fi/uas/saml2/SingleSignOnService)
 <br/><br/>
 
 ## 2 Integration Document
