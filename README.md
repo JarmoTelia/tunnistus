@@ -1,27 +1,6 @@
 # Telia Tunnistus Pre-Production 
-## OIDC Integration for Relying Parties
 
-## 📑 Table of Contents
-
-1. **[Endpoints](#1-endpoints)**
-       1.1 [OpenID Connect Metadata](#11-openid-connect-metadata)
-       1.2 [Keys](#12-keys)
-       1.3 [OAuth2 Endpoints](#13-oauth2-endpoints)
-       1.4 [SAML Metadata](#14-saml-metadata)
-
-2. **[Integration Document](#2-integration-document)**
-
-3. **[Regulatory Compliance Requirements for Strong Electronic Identification (Finland)](#3-regulatory-compliance-requirements-for-strong-electronic-identification-finland)**
-       3.1 [General Information](#31-general-information)
-       3.2 [Official Announcements](#32-official-announcements)
-       3.3 [Regulation 72B: Identification and Trust Services](#33-regulation-72b-identification-and-trust-services)
-       3.4 [Technical Profiles](#34-technical-profiles)
-         3.4.1 [OpenID Connect (OIDC)](#341-openid-connect-oidc)
-         3.4.2 [SAML](#342-saml)
-
-4. **[Tunnistus Python Sample Application](#4-tunnistus-python-sample-application)**
-
-5. **[Questions and Answers on the Traficom Announcement to E-Services](#5-questions-and-answers-on-the-traficom-announcement-to-e-services)**
+[[_TOC_]]
 
 ---
 
@@ -170,3 +149,19 @@ UgHdKtepSCX_b3WWLKD3KW7W3lmoeSpI9iLmPLJMiYHlBcd70dCBBQW24n2bSk1BLwiNVETWPfsNnFWA
  ]
 }
 ```
+
+## 6 Questions and Answers on Telia Tunnistus key rotation
+
+**Q: How do I know if this applies to me?**<br/>
+A: This applies to all integrations with Telia Tunnistus. Some integrations have already implemented automated key management. In that case no action is required. Otherwise you need to manually update the new keys to your service.
+
+**Q: What is the plan?**<br/>
+A: The plan is to rotate Telia Tunnistus OIDC and SAML keys. See the time table below:
+
+ENV | DATE | NAME | ACTION
+--- | --- | --- | ---
+PRE-PROD |	12.1.2026 |	tunnistus-pp.telia.fi |	OIDC and SAML keys publication
+PRE-PROD |	9.2.2026 |	tunnistus-pp.telia.fi |	OIDC and SAML keys deployment
+PROD |	23.2.2026 |	tunnistus.telia.fi | OIDC and SAML keys publication
+PROD |	20.4.2026 |	tunnistus.telia.fi | OIDC and SAML keys deployment
+
