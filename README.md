@@ -187,7 +187,7 @@ PRE-PROD |	9.2.2026 |	tunnistus-pp.telia.fi |	OIDC and SAML keys deployment
 PROD |	23.2.2026 |	tunnistus.telia.fi | OIDC and SAML keys publication
 PROD |	20.4.2026 |	tunnistus.telia.fi | OIDC and SAML keys deployment
 
-**Q: Where can I find the latest version of the key rotation document?
+**Q: Where can I find the latest version of the key rotation document?**<br/>
 A: The link to the latest key rotation document: 
 
 📥 [Telia Tunnistus Key Rotation (PDF)](files/Telia%20Tunnistus%20Key%20Rotation%2020260107.pdf)
