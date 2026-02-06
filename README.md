@@ -120,7 +120,7 @@ Sample application integration with Python: https://github.com/telia-oss/tunnist
 
 ### 4.2 Sample Entity Statement
 
-Sample Entity Stament for relying party application: https://github.com/telia-oss/tunnistus-python-sample/files/entity-statement-example
+Sample Entity Stament for relying party application: https://github.com/telia-oss/tunnistus/tree/main/files/entity-statement-example
 
 ## 5 Questions and Answers on the Traficom announcement to e-services
 
